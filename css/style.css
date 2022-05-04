@@ -1,0 +1,79 @@
+h1 { 
+    color: #adcade;
+    font-size: 48px;
+}
+
+h2 {
+    color: #adcade;
+    font-size: 25px;
+    letter-spacing: 0.65mm;
+    outline-style: dotted;
+    outline-width: 1mm;
+    outline-color: #cca854;
+}
+
+h2:hover {
+    color: #c75e4e;
+    font-size: 28px;
+    letter-spacing: 1mm;
+    outline-style: dotted;
+    outline-color: #cdd0d4;
+}
+
+h3 { 
+    color: #cdd0d4;
+    letter-spacing: 0.25mm;
+}
+
+h5 { 
+    color: #cdd0d4;
+    letter-spacing: 0.25mm;
+}
+
+p {
+    color: #687861;
+}
+
+/*p:hover {
+    border: 2px solid #a9cc91;
+    border-radius: 8px;
+    background-color: #e8ebe6;
+}*/
+
+body {
+    background-color: #fffae0;
+}
+
+.navy-grey {
+    color: #525b6b;
+    border: 3px solid #2e3447;
+    border-top-width: 3mm;
+    background-color: #fcf7f2;
+}
+
+/*.navy-grey:hover {
+    font-size: smaller;
+}*/
+
+a:visited {
+    font-size: medium;
+    color: #adcade;
+}
+
+a:hover {
+    color: #c75e4e;
+    font-size: 17px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: groove #2e3447;
+    border-width: 6.5mm;
+    /* figuring out how to auto-resize image when resizing/shrinking window */
+}
+
+* {
+    font-family: 'Syne Mono', monospace;
+    margin: 20px;
+}
